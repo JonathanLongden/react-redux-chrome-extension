@@ -12,7 +12,10 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Welcome to React</h1>
         </header>
-        <a-scene>
+        <p className="App-intro">
+          No-Aframe <code> No-Aframe</code>  No-Aframe   
+          </p>
+        {/*<a-scene>
         <a-entity 
             geometry="primitive: box" 
             position="-1 0.5 -3" 
@@ -31,7 +34,7 @@ class App extends Component {
             position="0 0 -4" 
             rotation="-90 0 0" 
             material="color: #7BC8A4" />
-        </a-scene>
+        </a-scene>}*/}
         </div>
     );
   }

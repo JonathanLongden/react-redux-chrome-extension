@@ -1,4 +1,4 @@
-import 'aframe';
+//import 'aframe';
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
@@ -15,7 +15,26 @@ class App extends Component {
         <p className="App-intro">
           No-Aframe <code> No-Aframe</code>  No-Aframe   
           </p>
-        {/*<a-scene>
+       
+        </div>
+    );
+  }
+}
+
+export default App;
+
+
+
+// <div className="App">
+//   <header className="App-header">
+//     <img src={logo} className="App-logo" alt="logo" />
+//     <h1 className="App-title">Welcome to React</h1>
+//   </header>
+//   <p className="App-intro">
+//     To get started, edit <code>src/App.js</code> and save to reload.   
+//   </p>
+// </div>
+ {/*<a-scene>
         <a-entity 
             geometry="primitive: box" 
             position="-1 0.5 -3" 
@@ -35,21 +54,3 @@ class App extends Component {
             rotation="-90 0 0" 
             material="color: #7BC8A4" />
         </a-scene>}*/}
-        </div>
-    );
-  }
-}
-
-export default App;
-
-
-
-// <div className="App">
-//   <header className="App-header">
-//     <img src={logo} className="App-logo" alt="logo" />
-//     <h1 className="App-title">Welcome to React</h1>
-//   </header>
-//   <p className="App-intro">
-//     To get started, edit <code>src/App.js</code> and save to reload.   
-//   </p>
-// </div>

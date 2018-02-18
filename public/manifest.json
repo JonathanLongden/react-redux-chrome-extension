@@ -1,10 +1,27 @@
 {
-  "short_name": "React App",
-  "name": "React Extension",
+  "short_name": "react-redux-chrome-extension",
+  "name": "react-redux-chrome-extension",
+  "icons":{
+    "16" : "favicon.ico",
+    "48" : "favicon.ico",
+    "128" : "favicon.ico"
+  },
   "manifest_version": 2,
   "browser_action": {
-    "default_popup": "./index.html",
-    "default_title": "React Ext"
+    "default_popup": "popup.html",
+    "default_title": "MOODSWING",
+    "default_icon": {
+      "16" : "icon.png",
+      "24" : "icon.png",
+      "32" : "icon.png"
+    }
   },
-  "version": "1.0"
+  "version": "1.0",
+  "background": {
+    "page": "popup.html"
+  },
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
 }
